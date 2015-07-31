@@ -108,9 +108,9 @@ public class Updater {
     
     
     
-    private final static String versionURL = "http://"+Settings.server_dns+":8080/AdminServer/clientversion";
-   private static final String aboutURL = "http://"+Settings.server_dns+":8080/AdminServer/clientversion?about=true";
-    private static final String fileUrl = "http://"+Settings.server_dns+":8080/AdminServer/clientupdate";
+    private final static String versionURL = "http://"+PrivateInfo.SERVER_DNS+":8080/AdminServer/clientversion";
+   private static final String aboutURL = "http://"+PrivateInfo.SERVER_DNS+":8080/AdminServer/clientversion?about=true";
+    private static final String fileUrl = "http://"+PrivateInfo.SERVER_DNS+":8080/AdminServer/clientupdate";
     public String getLatestVersion() throws IOException
     {   
          
@@ -303,7 +303,7 @@ public class Updater {
     
     private static String getData(String address) throws IOException
     {
-        logger.debug("connect with {}",Settings.server_dns);
+        logger.debug("connect with {}",PrivateInfo.SERVER_DNS);
         URL url = new URL(address);
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()))){

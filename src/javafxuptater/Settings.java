@@ -18,7 +18,7 @@ public class Settings {
     
     static final  String  base_dir = get_exec_dir();
     
-    static public final String server_dns = System.getProperty("server.dns",/*put here dns server address. Removed for security reason*/);
+     
     
     static  String bytesToHumanReadableString(long bytes){
                         final NumberFormat nf = NumberFormat.getNumberInstance();
