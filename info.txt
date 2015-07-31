@@ -1,0 +1,11 @@
+#Modify build numbers in a properties file.
+#Mon, 16 Feb 2015 18:23:55 +0400
+
+version=01.83.15021606
+
+195.209.33.174 ?
+[14:40:24] Alexander Solodovnikov: Да
+[14:40:40] Alexander Solodovnikov: Логин/пароль есть?
+[14:40:54] Черников Кирилл: remoteadmin?
+[14:42:25] Черников Кирилл: ADD0D407-5923-4E9C-9976-5F96E4D2D5CD пароль?
+
